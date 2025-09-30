@@ -205,3 +205,38 @@ Package ini hanya untuk menyimpan data, tidak ada proses perhitungan di sini.
 
 ## Abstraction & Polymorphism
 
+### 1. Menerapkan Abstraction
+<img width="326" height="94" alt="Screenshot 2025-09-30 095540" src="https://github.com/user-attachments/assets/54980790-9a75-4992-9aeb-583b4a72593c" />
+
+<img width="398" height="34" alt="Screenshot 2025-09-30 095555" src="https://github.com/user-attachments/assets/e814f52f-d8f1-4555-8012-0995e5dc5cc6" />
+
+Disini User sebagai abstract class, karena User hanya menjadi template bagi Admin dan Pelanggan, tidak dibuat sebagai objek langsung.
+Lalu tambahkan 1 method abstract tampilkanInfo() supaya wajib dioverride oleh semua subclass.
+
+### 2. Menggunakan Interface
+
+<img width="382" height="161" alt="image" src="https://github.com/user-attachments/assets/55b76ec1-cc7b-47e6-9977-8fe369b0e1b6" />
+
+Membuat interface CetakData yang dipakai untuk menampilkan informasi penyewaan.
+
+### 3. Menerapkan Interface di Service
+
+<img width="707" height="303" alt="image" src="https://github.com/user-attachments/assets/9263f0e9-d8e0-44d8-8f56-cd75d8e11433" />
+
+Disini PenyewaanService mengimplementasikan CetakData karena berfungsi sebagai pengelola utama dalam sistem penyewaan.
+Method tampilkanDetail() kita buat sebagai implementasi dari interface.
+
+### 4. Menerapkan Polymorphism
+
+- Override
+
+<img width="921" height="214" alt="Screenshot 2025-09-30 102527" src="https://github.com/user-attachments/assets/80741a93-a728-4cc9-b923-1e1964ea49b1" />
+
+<img width="554" height="178" alt="Screenshot 2025-09-30 102547" src="https://github.com/user-attachments/assets/f3e2db6e-bd49-4131-89a0-596c56c19d77" />
+
+- Overloading
+
+<img width="874" height="139" alt="image" src="https://github.com/user-attachments/assets/8bbb687c-890f-459a-a08f-43a09d2d057b" />
+
+
+
