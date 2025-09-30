@@ -230,6 +230,8 @@ Method tampilkanDetail() kita buat sebagai implementasi dari interface.
 
 - Override
 
+<img width="670" height="240" alt="image" src="https://github.com/user-attachments/assets/06cf76ff-93aa-43cf-9687-ca1d54f449ed" />
+
 <img width="921" height="214" alt="Screenshot 2025-09-30 102527" src="https://github.com/user-attachments/assets/80741a93-a728-4cc9-b923-1e1964ea49b1" />
 
 <img width="554" height="178" alt="Screenshot 2025-09-30 102547" src="https://github.com/user-attachments/assets/f3e2db6e-bd49-4131-89a0-596c56c19d77" />
